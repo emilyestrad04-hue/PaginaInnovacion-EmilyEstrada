@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+/* MENÚ */
+header {
+    background: black;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* PORTADA */
+.hero {
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1518770660439-4636190af475") center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* efecto oscuro */
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+    padding: 40px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
